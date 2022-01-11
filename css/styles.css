@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Proxima-nova-regular;
+    /* Гарнитура шрифта */
+    src: url('/fonts/ProximaNova-Regular.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Proxima-nova-bold;
+    /* Гарнитура шрифта */
+    src: url('/fonts/Proxima-Nova-Bold.otf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Proxima-nova-bold;
+    /* Гарнитура шрифта */
+    src: url('/fonts/');
+    /* Путь к файлу со шрифтом */
+}
+
+h1 {
+    font-family: Proxima-nova-bold;
+}
+
+h3 {
+    margin-left: 12.5vw;
+    width: 50vw;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
+    font-family: Proxima-nova-bold;
+}
+
+.usual-text p {
+    width: 50vw;
+    line-height: 1.5em;
+    margin-bottom: 2.5em;
+    padding: 0;
+    box-align: justify;
+    margin-left: 12.5vw;
+    font-size: 20px;
+    font-family: Proxima-nova-regular;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-left: 12.5vw;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.collapsible:hover {
+    background-color: #ccc;
+    margin-left: 12.5vw;
+    width: 50vw;
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+
+.content {
+    padding-left: 1vw;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 49vw;
+    margin-left: 12.5vw;
+    font-size: 20px;
+}
+
+.filter-button {
+    width: 50vw;
+    margin-left: 12.5vw;
+    height: 3vh;
+    border-color: transparent;
+    font-family: Proxima-nova-regular;
+    font-size: 20px;
+}
+
+#wear_tear {
+    position: relative;
+    width: 50vw;
+    margin-left: 12.5vw;
+}
+
+#wear_tear .tooltip {
+    position: absolute;
+    pointer-events: none;
+}
+
+#balans {
+    position: relative;
+    width: 50vw;
+    margin-left: 12.5vw;
+}
+
+#balans .tooltip {
+    position: absolute;
+    pointer-events: none;
+}
+
+#workers {
+    width: 50vw;
+    margin-left: 12.5vw;
+}
+
+#penny {
+    position: relative;
+    width: 50vw;
+    margin-left: 12.5vw;
+}
+
+#penny .tooltip {
+    position: absolute;
+    pointer-events: none;
+}
+
+.grid {
+    color: gray;
+}
